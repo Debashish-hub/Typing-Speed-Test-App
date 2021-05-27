@@ -1,10 +1,11 @@
-## Typing Test App
+# Typing Speed Test App
 
-# To install pygame run:
+## Run the following commamnds in your terminal to get started with Typing Speed Test App 
+### To install pygame run:
 `pip install pygame`
 
-# To install pyjokes run:
+### To install pyjokes run:
 `pip install pyjokes`
 
-# To run the app:
+### To run the app:
 `python typingTest.py`
