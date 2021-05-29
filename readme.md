@@ -1,7 +1,9 @@
 # Typing Speed Test App
 
 *App is under construction*
-
+<p align="center">
+  <img src="logo.png" alt="Cyber Geeks" />
+</p>
 ## Run the following commamnds in your terminal to get started with Typing Speed Test App 
 ### To install pygame run:
 `pip install pygame`

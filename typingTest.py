@@ -17,12 +17,12 @@ class Game:
         self.time_start = 0
         self.total_time = 0
         self.accuracy = '0%'
-        self.results = 'Time:0 Accuracy:0 % Wpm:0 '
+        self.results = 'Time:0 Accuracy:0 % WPM:0 '
         self.wpm = 0
         self.end = False
-        self.HEAD_C = (255, 213, 102)
+        self.HEAD_C = (6, 185, 191)
         self.TEXT_C = (240, 240, 240)
-        self.RESULT_C = (255, 70, 70)
+        self.RESULT_C = (7, 217, 122)
 
         pygame.init()
         self.open_img = pygame.image.load('images/open.jpg')
@@ -67,8 +67,7 @@ class Game:
             self.end = True
             print(self.total_time)
 
-            self.results = 'Time: '+str(round(self.total_time)) + " secs   Accuracy: " + str(
-                round(self.accuracy)) + "%" + '   Wpm: ' + str(round(self.wpm))
+            self.results = 'Time: '+str(round(self.total_time)) + " secs  WPM:  " + str(round(self.wpm)) + '   Accuracy: ' +str(round(self.accuracy)) + "%"
 
             # draw icon image
             self.time_img = pygame.image.load('images/icon.png')
@@ -76,7 +75,7 @@ class Game:
 
             #screen.blit(self.time_img, (80,320))
             screen.blit(self.time_img, (self.w/2-75, self.h-140))
-            self.draw_text(screen, "Reset", self.h - 70, 26, (100, 100, 100))
+            self.draw_text(screen, "Reset", self.h - 70, 26, (109, 248, 252))
 
             print(self.results)
             pygame.display.update()
