@@ -24,4 +24,8 @@ Thanks goes to these wonderful people 🤗
       <sub><b>Name</b></sub><br/>
     </td>
   </tr>
- </table>
+ </table><br/><br/><br/>
+ <h1 align="center">Team Cyber Geeks</h1>
+ <p align="center">
+  <img src="logo.png" alt="Cyber Geeks" />
+</p>
